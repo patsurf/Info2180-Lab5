@@ -3,8 +3,6 @@ $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';
 $dbname = 'world';
-
-
 $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 $stmt = $conn->query("SELECT * FROM countries");
 $op=1;
@@ -22,8 +20,6 @@ if (isset($_GET['country'])){
     $sql_country="SELECT * FROM countries WHERE name LIKE '%$country%';";
     $stmt=$conn->query($sql_country);
   }
-  
-
   
 }
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
