@@ -1,5 +1,5 @@
 window.onload = function () 
-{   const lookup_country = document.querySelector('#lookup-country');
+{ const lookup_country = document.querySelector('#lookup-country');
     const lookup_cities=document.querySelector('#lookup-cities');
     var result = document.querySelector('#result');
     $.ajax({
