@@ -3,7 +3,7 @@
 -- to install this database, from a terminal, type:
 -- mysql -u USERNAME -p -h SERVERNAME world < world.sql
 --
--- Host: localhost    Database: world
+-- Host: localhost   Database: world
 -- ------------------------------------------------------
 -- Server version   5.0.45-log
 
